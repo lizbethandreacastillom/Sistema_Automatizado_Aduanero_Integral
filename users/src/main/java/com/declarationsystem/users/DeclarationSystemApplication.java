@@ -6,14 +6,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.declarationsystem.controller", "com.declarationsystem.service"})
-
-public class UsersApplication {
-
+public class DeclarationSystemApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(UsersApplication.class, args);
+		SpringApplication.run(DeclarationSystemApplication.class, args);
 	}
-
-};
-
-
-
+}
